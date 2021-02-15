@@ -1,0 +1,106 @@
+@import "src/styles/mixins";
+@import "src/styles/vars";
+
+.button {
+  border: none;
+  display: inline-block;
+  text-align: center;
+  min-height: 64px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  background-color: $bg-blue;
+
+  @include pragmatica (18px, 22px, $white);
+  font-weight: normal;
+  cursor: pointer;
+
+
+  &:hover {
+    background-color: #2789FF;
+  }
+
+  @media (min-width: 950px) {
+    line-height: 32px;
+    width: 50%;
+  }
+
+  &--pdf {
+    padding-top: 22px;
+    margin-top: 50px;
+
+    @media (min-width: 950px) {
+      padding-top: 17px;
+    }
+  }
+
+  &--index {
+    width: 100%;
+    margin-top: 20px;
+    background-color: $white;
+    color: #0627b0;
+
+    @media (min-width: 950px) {
+      margin-top: 50px;
+      max-width: 280px;
+    }
+
+    &:hover {
+      background-color: #9ACDFF;
+    }
+  }
+
+  &--price {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 22px;
+    background-color: $white;
+    color: #0627b0;
+
+    @media (min-width: 950px) {
+
+      padding-top: 15px;
+      max-width: 280px;
+      margin: 0;
+      margin-right: auto;
+    }
+
+    &:hover {
+      background-color: #9ACDFF;
+    }
+  }
+
+  &--more {
+    padding-top: 0;
+  }
+
+  &--products {
+    padding-top: 22px;
+    width: 100%;
+
+    @media (min-width: 950px) {
+      padding-top: 17px;
+    }
+  }
+
+  &--submit {
+    padding-top: 0;
+  }
+
+  &--brands {    
+    padding-top: 0;
+    color: #0627B0;
+    background-color: #F0F0F0;
+    margin-top: 14px;
+    
+    @media (min-width: 950px) {
+      margin-top: auto;
+      padding-top: 0;
+      width: 100%;
+    }
+  }
+}
