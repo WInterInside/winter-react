@@ -7,10 +7,16 @@ export default function Advantages() {
       <h2 className="section__heading">ДОСТУПНЫ ДЛЯ БРОНИРОВАНИЯ:</h2>
       <ul className="advantages__list">
         <li className="advantages__item">
-          <p className="advantages__discription">1</p>
-          <p className="advantages__discription">2</p>
-          <p className="advantages__discription">3</p>
-          <p className="advantages__discription">4</p>
+          <p className="advantages__discription">Подходит для семейного отдыха</p>
+        </li>
+        <li className="advantages__item">
+          <p className="advantages__discription">Море в пешей доступности</p>
+        </li>
+        <li className="advantages__item">
+          <p className="advantages__discription">Трансфер из аэропорта</p>
+        </li>
+        <li className="advantages__item">
+          <p className="advantages__discription">Удобная кухня кухня</p>
         </li>
       </ul>
     </section>
