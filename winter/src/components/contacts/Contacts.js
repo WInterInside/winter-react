@@ -4,9 +4,9 @@ import "./Contacts.scss";
 export default function Contacts() {
   return (
     <section className="contacts">
-      <h2 className="section__heading">Контакты</h2>
+      <h2 className="section__heading visually-hidden">Контакты</h2>
       <ul className="contacts__list">
-        <li className="contacts__item">
+        <li className="contacts__item contacts__item--adress">
           <address className="contacts__adress">
             Крым, г. Алушта <br />
             с. Солнечногорское<br />
