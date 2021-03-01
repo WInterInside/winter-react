@@ -1,20 +1,13 @@
 @font-face {
-  font-family: "DINPro";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/din-pro-condensed-medium.woff2") format("woff2"), url("../fonts/din-pro-condensed-medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "DINPro-noncond";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/DINpro(regularnoncond).woff2") format("woff2"), url("../fonts/DINpro(regularnoncond).woff") format("woff");
-}
-
-@font-face {
-  font-family: "Pragmatica";
+  font-family: "Arsenal-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/Pragmatica.woff2") format("woff2"), url("../fonts/Pragmatica.woff") format("woff");
+  src: url("../fonts/Arsenal-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Arsenal-Bold";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Arsenal-Bold.woff2") format("woff2");
 }

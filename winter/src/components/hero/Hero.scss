@@ -3,7 +3,10 @@
 
 .main__heading {
   color: floralwhite;
+  font-family: "Arsenal-Bold", serif;  
+
   text-align: center;
+  margin-top: 300px;
 }
 
 .hero {
@@ -11,7 +14,10 @@
   min-height: 516px;
   padding-top: 30px;
   padding-bottom: 70px;
-  background-image: url(../../img/hero-bg.jpg);
+
+  // background-image: url(../../img/hero-bg.jpg);
+  
+  background-color: #80AAD4;
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -19,9 +25,17 @@
 .hero__wrapper {
   width: 100%;
   display: flex;
-  margin-bottom: 300px;
 }
 
 .hero__logo {
+  color: white;
+  font-family: "Arsenal-Bold", serif;  
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+
   margin-right: auto;
 }

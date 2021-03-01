@@ -1,3 +1,38 @@
 @import "src/styles/mixins";
 @import "src/styles/vars";
 
+.apartments {
+  padding-top: 88px;
+}
+
+.apartments__link {
+  margin-left: auto;
+  margin-bottom: 33px;
+  
+  color: #2B486A;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #2B486A;
+}
+
+.apartments__list {
+  @include list-style;
+
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+}
+
+.apartments__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.apartments__item {
+  width: 100%;
+  min-height: 380px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+}

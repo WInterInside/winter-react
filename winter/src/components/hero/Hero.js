@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="hero"> 
       <div className="container">
         <div className="hero__wrapper">
-          <span className="hero__logo">RENT</span>
+          <span className="hero__logo">Дом 38a</span>
           <Contacts />
         </div>
         <h1 className="main__heading">АРЕНДА ЖИЛЬЯ ДЛЯ ВАШЕГО ОТПУСКА</h1>

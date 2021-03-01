@@ -8,14 +8,40 @@
     display: flex;
     width: 100%;
     flex-direction: row;
+    align-items: flex-end;
   }
 
   &__item {
-    width: 50%;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
     
     &--adress {
-      margin-right: 20px;
+      color: white;
+      margin-right: 65px;
       margin-left: 20px;
+    }
+  }
+
+  &__link {
+    color: white;
+
+    &:visited {
+      color: white;
+    }
+  }
+
+  &__adress {
+    color: white;
+  }
+
+  &__icon {
+    margin-left: 20px;
+
+    &--map {
+      margin-left: 0;
+      margin-right: 20px;
     }
   }
 }

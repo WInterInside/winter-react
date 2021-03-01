@@ -13,9 +13,7 @@
   padding-left: 20px;
   padding-right: 20px;
   text-decoration: none;
-  background-color: $bg-blue;
-
-  @include pragmatica (18px, 22px, $white);
+  
   font-weight: normal;
   cursor: pointer;
 
@@ -41,7 +39,6 @@
   &--index {
     width: 100%;
     margin-top: 20px;
-    background-color: $white;
     color: #0627b0;
 
     @media (min-width: 950px) {
@@ -58,7 +55,6 @@
     width: 100%;
     margin-top: 20px;
     padding-top: 22px;
-    background-color: $white;
     color: #0627b0;
 
     @media (min-width: 950px) {

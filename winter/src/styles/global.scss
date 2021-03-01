@@ -19,6 +19,7 @@ body {
   //min-width: 375px;
   margin: 0 auto;
   //-webkit-transform:translate3d(0,0,0);
+  font-family: 'Arsenal-Regular', serif;  
 }
 
 a {
@@ -34,4 +35,17 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.section__heading {
+  font-family: "Arsenal-Bold", serif;  
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
 }

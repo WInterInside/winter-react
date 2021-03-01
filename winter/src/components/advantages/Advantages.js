@@ -4,7 +4,7 @@ import "./Advantages.scss";
 export default function Advantages() {
   return (
     <section className="advantages">
-      <h2 className="section__heading">ДОСТУПНЫ ДЛЯ БРОНИРОВАНИЯ:</h2>
+      <h2 className="section__heading"></h2>
       <ul className="advantages__list">
         <li className="advantages__item">
           <p className="advantages__discription">Подходит для семейного отдыха</p>
