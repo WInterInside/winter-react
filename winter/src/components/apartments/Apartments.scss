@@ -27,12 +27,51 @@
 
 .apartments__wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: middle;
+
+  &--column {
+    flex-direction: column;
+  }
 }
 
 .apartments__item {
-  width: 100%;
+  padding-bottom: 25px;
   min-height: 380px;
   border-radius: 10px;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.15);
+}
+
+.apartments__wrapper {
+  display: flex;
+  padding: 0 16px;
+}
+
+.apartments__heading {
+  text-transform: uppercase;
+}
+
+.apartments__discription {
+  font-size: 15px;
+  line-height: 22px;
+  padding: 0 16px;
+}
+
+.apartments__icons {
+  display: flex;
+  width: 150px;
+}
+
+.apartments__icon {
+  margin-right: 3px;
+  
+  &:last-child {
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+.apartments__data {
+  margin-right: 5px;
 }
