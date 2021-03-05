@@ -1,3 +1,25 @@
 @import "src/styles/mixins";
 @import "src/styles/vars";
 
+.advantages__list {
+  display: grid;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.advantages__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages__discription {
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+}

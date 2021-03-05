@@ -1,3 +1,44 @@
 @import "src/styles/mixins";
 @import "src/styles/vars";
 
+.comments {
+  text-align: center;
+}
+
+.comments__wrapper {
+  position: relative;
+  max-width: 1280px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.comments__toggle {
+  position: absolute;
+  top: 50px;
+
+  &--left {
+    left: 0;
+  }
+
+  &--right {
+    right: 0;
+  }
+}
+
+.comments__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments__discription {
+  margin-top: 30px;
+}
+
+.comments__author {
+  font-size: 20px;
+  line-height: 25px;
+  font-style: normal;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Apartments.scss";
-import Apartments_card from '../apartments/Apartments_card';;
+import ApartmentsCard from '../apartments/ApartmentsCard';;
 
 export default function Apartments() {
   return (
@@ -10,9 +10,9 @@ export default function Apartments() {
         <div className="apartments__wrapper apartments__wrapper--column">
           <a href="#" className="apartments__link">Больше варинатов:</a>
           <ul className="apartments__list">
-            <Apartments_card />
-            <Apartments_card />
-            <Apartments_card />
+            <ApartmentsCard />
+            <ApartmentsCard />
+            <ApartmentsCard />
           </ul>
         </div>
       </div>

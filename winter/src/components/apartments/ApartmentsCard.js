@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Apartments.scss";
 
-export default function Apartments_card() {
+export default function ApartmentsCard() {
   return (  
-    <li className="apartments__item">
-      <img src="/img/ap-ph.jpg" alt="photo" className="apartments__photo"/>
+    <li className="apartments__card">
+      <img src="/img/ap-ph.jpg" alt="app viev" className="apartments" width="370" height="200"/>
       <div className="apartments__wrapper">
         <h3 className="apartments__heading">Апартаменты</h3>
         <p className="apartments__prise">от 1000 р.</p>
