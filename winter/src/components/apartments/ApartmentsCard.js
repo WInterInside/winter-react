@@ -4,7 +4,7 @@ import "./Apartments.scss";
 export default function ApartmentsCard() {
   return (  
     <li className="apartments__card">
-      <img src="/img/ap-ph.jpg" alt="app viev" className="apartments" width="370" height="200"/>
+      <img src="/img/ap-ph.jpg" alt="app viev" className="apartments__img" width="370" height="200"/>
       <div className="apartments__wrapper">
         <h3 className="apartments__heading">Апартаменты</h3>
         <p className="apartments__prise">от 1000 р.</p>

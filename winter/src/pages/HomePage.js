@@ -3,15 +3,20 @@ import Hero from '../components/hero/Hero';
 import Apartments from '../components/apartments/Apartments';
 import Advantages from '../components/advantages/Advantages';
 import Comments from '../components/comments/Comments';
+import Footer from '../components/footer/Footer';
+
 
 export default function HomePage() {
 
   return (
-    <main className="main">      
+    <div className="viev">
       <Hero />
-      <Apartments />
-      <Advantages />
-      <Comments />
-    </main>    
+      <main className="main">    
+        <Apartments />
+        <Advantages />
+        <Comments />    
+      </main>
+      <Footer />
+    </div>
   )
 }

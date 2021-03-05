@@ -1,0 +1,13 @@
+@import "src/styles/mixins";
+@import "src/styles/vars";
+
+.footer {
+  min-height: 85px;
+  background-color: #eeeeee;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
