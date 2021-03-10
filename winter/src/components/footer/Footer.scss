@@ -2,12 +2,31 @@
 @import "src/styles/vars";
 
 .footer {
-  min-height: 85px;
+  min-height: 55px;
   background-color: #eeeeee;
+  padding-bottom: 12px;
+  padding-top: 20px;
+  font-size: 10px;
+  line-height: 12px;
+
+  @media (min-width: 950px) {
+    min-height: 85px;
+    padding-bottom: 22px;
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 
 .footer__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer__text {
+  margin: 0;
+}
+.footer__link--tel {
+  color: #000000;
+  float: right;
 }

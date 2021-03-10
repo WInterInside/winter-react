@@ -8,12 +8,17 @@
 .apartments__link {
   margin-left: auto;
   margin-bottom: 33px;
-  
+
   color: #2B486A;
   font-size: 18px;
   line-height: 23px;
   text-transform: uppercase;
   border-bottom: 1px solid #2B486A;
+
+  &--card {
+    margin-bottom: 0;
+  }
+  
 }
 
 .apartments {
@@ -27,7 +32,7 @@
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 80px;
+  grid-gap: 100px;
 }
 
 .apartments__wrapper {
@@ -47,7 +52,6 @@
   @media (min-width: 950px) {
   max-width: 370px;
   padding-bottom: 25px;
-  min-height: 380px;
   border-radius: 10px;
   box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.15);
   }

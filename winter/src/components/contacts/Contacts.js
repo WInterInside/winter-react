@@ -5,7 +5,7 @@ export default function Contacts() {
   return (
     <section className="contacts">
       <h2 className="section__heading visually-hidden">Контакты</h2>
-      <ul className="contacts__list">
+      <ul className="contacts__list contacts__list--full">
         <li className="contacts__item contacts__item--adress">
           <a href="https://yandex.ru/maps/977/republic-of-crimea/house/shosseynaya_ulitsa_38a/Z00YcwNjQEcDQFpufXt1eH1iZw==/?ll=34.544059%2C44.749020&z=19" className="contacts__map">
             <svg className="contacts__icon contacts__icon--map" width="10" height="15" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,6 +26,18 @@ export default function Contacts() {
             </svg>
           </ a>
           <p className="contacts__discription">подберем, бесплатно забронируем</p>
+        </li>
+      </ul>
+      <ul className="contacts__list contacts__list--mobile">
+        <li className="contacts__item">
+        <li className="contacts__item">
+            <a href="" className="contacts__link contacts__linl--tel">
+              <tel className="contacts__number">+7 978 *** ** **</tel>
+            </a>
+          </li>
+          <a href="" className="contacts__map">
+            <addres className="contacts__adress">п. Малореченское, ул. Траляля, 46</addres>
+          </a>
         </li>
       </ul>
     </section>

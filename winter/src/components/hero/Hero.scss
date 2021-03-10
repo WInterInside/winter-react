@@ -2,40 +2,59 @@
 @import "src/styles/vars";
 
 .main__heading {
-  color: floralwhite;
-  font-family: "Arsenal-Bold", serif;  
-
-  text-align: center;
-  margin-top: 300px;
+  display: none;
+  @media (min-width: 950px) {
+    color: floralwhite;
+    font-family: "Arsenal-Bold", serif;  
+  
+    text-align: center;
+    margin-top: 300px;
+  }
 }
 
 .hero {
   width: 100%;
-  min-height: 516px;
-  padding-top: 30px;
-  padding-bottom: 70px;
+  min-height: 72px;
+  padding-top: 12px;
+  background-color: #869BA0;
 
-  // background-image: url(../../img/hero-bg.jpg);
+  @media (min-width: 950px) {
+    min-height: 516px;
+    padding-top: 30px;
+    padding-bottom: 70px;
   
-  background-color: #80AAD4;
-  background-position: top center;
-  background-repeat: no-repeat;
+    background-image: url(hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  
+    background-color: #80AAD4;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
 }
 
 .hero__wrapper {
   width: 100%;
   display: flex;
+  flex-direction: row;
+
+  @media (min-width: 950px) {
+    flex-direction: row;
+  }
 }
 
-.hero__logo {
+.hero__logo {  
   color: white;
   font-family: "Adamina", serif;  
-  border-bottom: 3px solid white;
-  border-top: 3px solid white;
-
   font-weight: 400;
-  font-size: 48px;
-  line-height: 65px;
-
+  font-size: 36px;
+  line-height: 49px;
   margin-right: auto;
+
+  @media (min-width: 950px) {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    font-size: 48px;
+    line-height: 65px;
+  }
 }
