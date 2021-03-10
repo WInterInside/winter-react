@@ -3,7 +3,9 @@
 
 .main__heading {
   display: none;
+
   @media (min-width: 950px) {
+    display: block;
     color: floralwhite;
     font-family: "Arsenal-Bold", serif;  
   
@@ -23,13 +25,12 @@
     padding-top: 30px;
     padding-bottom: 70px;
   
-    background-image: url(hero-bg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    // background-image: url(hero-bg.jpg);
+    // background-size: cover;
+    // background-attachment: fixed;
+    // background-position: center 600px;
   
     background-color: #80AAD4;
-    background-position: top center;
-    background-repeat: no-repeat;
   }
 }
 
