@@ -42,10 +42,15 @@
 }
 
 .apartments__card {
+  margin: 0 auto;
+
+  @media (min-width: 950px) {
+  max-width: 370px;
   padding-bottom: 25px;
   min-height: 380px;
   border-radius: 10px;
   box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .apartments__wrapper {

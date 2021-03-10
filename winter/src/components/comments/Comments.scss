@@ -8,13 +8,15 @@
 .comments__wrapper {
   position: relative;
   max-width: 1280px;
-  padding: 0 40px;
+  padding: 0 80px;
   margin: 0 auto;
 }
 
 .comments__toggle {
   position: absolute;
   top: 50px;
+  border: none;
+  background-color: transparent;
 
   &--left {
     left: 0;
