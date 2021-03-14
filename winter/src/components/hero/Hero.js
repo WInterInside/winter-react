@@ -7,7 +7,8 @@ export default function Hero(props) {
     <section className="hero"> 
       <div className="container">
         <div className="hero__wrapper">
-          <span className="hero__logo">{props.logo}</span>
+          <a href="index.html" className="hero__link"><span className="hero__logo">{props.logo}</span>
+          </a>
           <Contacts />
         </div>
         <h1 className="main__heading">АРЕНДА ЖИЛЬЯ ДЛЯ ВАШЕГО ОТПУСКА</h1>
