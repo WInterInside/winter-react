@@ -1,8 +1,13 @@
 @import "src/styles/mixins";
 @import "src/styles/vars";
 
-.comments {
-  text-align: center;
+.comments {  
+  display: none;
+
+  @media (min-width: 950px) {
+    display: block;
+    text-align: center;
+  }
 }
 
 .comments__wrapper {

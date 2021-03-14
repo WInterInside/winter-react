@@ -7,7 +7,7 @@ export default function Advantages() {
   return (
     <section className="advantages">
       <div className="container">
-        <h2 className="section__heading">ПОЧЕМУ СТОИТ ВЫБРАТЬ ИМЕННО НАС:</h2>
+        <h2 className="section__heading section__heading--advantages">ПОЧЕМУ СТОИТ ВЫБРАТЬ ИМЕННО НАС:</h2>
         <ul className="advantages__list">
           <AdvantagesItem />
           <AdvantagesItem />

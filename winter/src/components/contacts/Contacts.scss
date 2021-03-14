@@ -64,6 +64,7 @@
 
 .contacts__list--full {
   display: none;
+
   @media (min-width: 950px) {
     display: flex;
   }
@@ -71,6 +72,7 @@
 
 .contacts__list--mobile{
   display: flex;
+  
   @media (min-width: 950px) {
     display: none;
   }

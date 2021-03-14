@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Apartments.scss";
 
-export default function ApartmentsCard() {
+export default function ApartmentsCard(props) {
   return (  
     <li className="apartments__card">
       <picture>
@@ -9,7 +9,7 @@ export default function ApartmentsCard() {
         <img src="/img/ap-ph-mob.jpg" alt="app viev" className="apartments__img" width="375" height="200"/>
       </picture>
       <div className="apartments__wrapper apartments__wrapper--price">
-        <h3 className="apartments__heading">Апартаменты</h3>
+        <h3 className="apartments__heading">{props.apps}</h3>
         <p className="apartments__prise">от 1000 р.</p>
       </div>
       <p className="apartments__discription">Отдельностоящий дом со всеми удобствами. Подходит для большой семьи.</p>

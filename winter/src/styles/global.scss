@@ -48,11 +48,23 @@ address {
   text-transform: uppercase;
   text-align: center;
   color: black;
-}
 
-.section__heading--apartments {
-  display: none;
-  @media (min-width: 950px) {
-    display: block;
+  &--apartments {
+    display: none;
+    
+    @media (min-width: 950px) {
+      display: block;
+    }
+  }
+
+  &--advantages {
+    font-size: 14px;
+    line-height: 17px;
+
+    @media (min-width: 950px) {
+      font-size: 24px;
+      line-height: 30px;
+    }
   }
 }
+

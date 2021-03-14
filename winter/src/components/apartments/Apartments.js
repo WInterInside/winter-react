@@ -10,9 +10,9 @@ export default function Apartments() {
         <div className="apartments__wrapper apartments__wrapper--column">
           <a href="#" className="apartments__link apartments__link--more">Больше варинатов:</a>
           <ul className="apartments__list">
-            <ApartmentsCard />
-            <ApartmentsCard />
-            <ApartmentsCard />
+            <ApartmentsCard apps="Домик на 3"/>
+            <ApartmentsCard apps="Люкс"/>
+            <ApartmentsCard apps="Эконом"/>
           </ul>
         </div>
       </div>
