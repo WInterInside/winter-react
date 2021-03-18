@@ -4,6 +4,7 @@ import "./Apartments.scss";
 export default function ApartmentsCard(props) {
   return (  
     <li className="apartments__card">
+      <a href="/morerent.html" className="apartments__link apartments__link--blank">
       <picture>
         <source media="(min-width: 950px)" srcset="/img/ap-ph.jpg" />
         <img src="/img/ap-ph-mob.jpg" alt="app viev" className="apartments__img" width="375" height="200"/>
@@ -38,6 +39,7 @@ export default function ApartmentsCard(props) {
         </div>
         <a className="apartments__link apartments__link--card" href="http://">Подробнее</a>
       </div>
+      </a>
     </li>
   )
 }
