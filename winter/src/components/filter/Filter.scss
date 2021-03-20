@@ -1,5 +1,32 @@
 @import "src/styles/mixins";
 @import "src/styles/vars";
 
+.filter__name {
+  margin-right: 13px;
+}
+
+.filter__value {
+  margin-right: 8px;
+}
+
+.filter__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.filter__input {
+  width: 64px;
+  height: 24px;
+  padding: 7px 5px;
+  margin-right: 10px;
+  border: 1px solid rgba(43, 72, 106, 0.6);
+  border-radius: 20px;
+
+  font-size: 10px;
+  line-height: 13px;
+
+  outline: none;
+}
+
 // @media (min-width: 950px) {
 // }

@@ -1,5 +1,7 @@
 import React from "react"
-import Hero from '../components/hero/Hero';
+import Smallhero from '../components/smallhero/Smallhero';
+import Apartments from '../components/apartments/Apartments';
+import Filter from '../components/filter/Filter';
 import Footer from '../components/footer/Footer';
 
 
@@ -7,11 +9,13 @@ export default function ApartmentsPage() {
 
   return (
     <div className="viev">
-      <Hero logo="Apartments Hero"/>
+      <Smallhero logo="Apartments Hero"/>
 
       <main className="main">    
-      
+        <Filter />
+        <Apartments />
       </main>
+
       <Footer />
     </div>
   )

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Contacts.scss";
 
-export default function Contacts() {
+export default function Contacts(props) {
   return (
     <section className="contacts">
       <h2 className="section__heading visually-hidden">Контакты</h2>
@@ -11,11 +11,7 @@ export default function Contacts() {
             <svg className="contacts__icon contacts__icon--map" width="10" height="15" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 0C1.79097 0 0 1.38072 0 3.08374C0 4.78676 4 11 4 11C4 11 8 4.78687 8 3.08374C8 1.38061 6.20917 0 4 0ZM4 4.45247C3.01962 4.45247 2.22473 3.83955 2.22473 3.08385C2.22473 2.32793 3.01962 1.71523 4 1.71523C4.98052 1.71523 5.77527 2.32793 5.77527 3.08385C5.77542 3.83955 4.98052 4.45247 4 4.45247Z" fill="white"/>
             </svg>
-            <address className="contacts__adress">
-              Крым, г. Алушта <br />
-              с. Солнечногорское<br />
-              ушл. Шоссейная 38 лит. А
-            </address>
+            <address className="contacts__adress">{props.adress}</address>
           </a>
         </li>
         <li className="contacts__item">

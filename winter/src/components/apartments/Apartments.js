@@ -1,6 +1,14 @@
 import React from 'react'
 import "./Apartments.scss";
-import ApartmentsCard from '../apartments/ApartmentsCard';;
+import ApartmentsCard from '../apartments/ApartmentsCard';
+import MorerentPage from '../../pages/MorerentPage';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 export default function Apartments() {
   return (
@@ -16,6 +24,26 @@ export default function Apartments() {
           </ul>
         </div>
       </div>
+{/* 
+      <Router>
+      <div>
+        <ul>
+          <li>
+            <Link to="/MorerentPage">More RENT</Link>
+          </li>
+        </ul>
+
+        <Switch>
+          <Route path="/MorerentPage">
+            <MorerentPage />
+          </Route>
+        </Switch>
+      </div>
+      </Router> */}
+
+
     </section>
   )
+
+
 }
