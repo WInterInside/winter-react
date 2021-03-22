@@ -1,7 +1,7 @@
 import './App.scss';
 import HomePage from './pages/HomePage';
-import ApartmentsPage from './pages/ApartmentsPage';
-import MorerentPage from './pages/MorerentPage';
+import ApartmentsPage from './pages/Apartments';
+import MorerentPage from './pages/More';
 
 import {
   BrowserRouter as Router,
@@ -15,20 +15,11 @@ function App() {
     <div className="App">
       <Router>
       <div>
-        <ul>
-          <li>
-            <Link to="/MorerentPage">More RENT</Link>
-          </li>
-          <li>
-            <Link to="/Apartmentspage">Apartments PAGE</Link>
-          </li>
-        </ul>
-
         <Switch>
-          <Route path="/MorerentPage">
+          <Route path="/More">
             <MorerentPage />
           </Route>
-          <Route path="/Apartmentspage">
+          <Route path="/Apartments">
             <ApartmentsPage />
           </Route>
           <Route path="/">

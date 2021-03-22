@@ -9,7 +9,7 @@ export default function Smallhero(props) {
         <div className="smallhero__wrapper">
           <a href="index.html" className="smallhero__link"><span className="smallhero__logo">{props.logo}</span>
           </a>
-          <Contacts adress="Как нас найти?"/>
+          <Contacts address="Как нас найти?"/>
         </div>
         <h1 className="main__heading visually-hidden">АРЕНДА ЖИЛЬЯ ДЛЯ ВАШЕГО ОТПУСКА</h1>
       </div>

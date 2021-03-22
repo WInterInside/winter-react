@@ -1,21 +1,20 @@
 import React from "react"
 import Smallhero from '../components/smallhero/Smallhero';
-import Apartments from '../components/apartments/Apartments';
-import Filter from '../components/filter/Filter';
 import Footer from '../components/footer/Footer';
+import Calendar from '../components/calendar/Calendar';
+import Comments from '../components/comments/Comments';
 
 
-export default function ApartmentsPage() {
+export default function MorerentPage() {
 
   return (
     <div className="viev">
-      <Smallhero logo="Apartments Hero"/>
+      <Smallhero logo="dom38a"/>
 
       <main className="main">    
-        <Filter />
-        <Apartments />
+        <Calendar />
+        <Comments />    
       </main>
-
       <Footer />
     </div>
   )

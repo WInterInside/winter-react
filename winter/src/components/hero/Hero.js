@@ -9,7 +9,7 @@ export default function Hero(props) {
         <div className="hero__wrapper">
           <a href="index.html" className="hero__link"><span className="hero__logo">{props.logo}</span>
           </a>
-          <Contacts adress="             
+          <Contacts address="             
               Крым, г. Алушта
               с. Солнечногорское
               ул. Шоссейная 38 лит. А"/>

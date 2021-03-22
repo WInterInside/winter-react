@@ -17,6 +17,7 @@
 .smallhero {
   width: 100%;
   padding-top: 12px;
+  padding-bottom: 18px;
   background-color: #869BA0;
 
   @media (min-width: 950px) {
@@ -44,7 +45,7 @@
 }
 
 .smallhero__logo {  
-  color: red;
+  color: rgb(255, 255, 255);
   font-family: "Adamina", serif;  
   font-weight: 400;
   font-size: 36px;
