@@ -107,7 +107,7 @@
   text-transform: uppercase;
 }
 
-.apartments__discription {
+.apartments__description {
   font-size: 15px;
   line-height: 22px;
   padding: 0 16px;
@@ -136,14 +136,35 @@ picture {
   @media (min-width: 950px) {
     width: 375px;
     margin: 0 auto;
-    }
+  }
 }
 
-.apartments__img {
+.apartments__img,
+.apartment__mainimg,
+.apartment__img {
   width: 950px;
   
   @media (min-width: 950px) {
     width: 100%;
     height: auto;
-    }
+  }
+}
+
+.apartments__name {
+  color: black;
+}
+
+.apartment__gallery {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.apartment__mainimg {
+  margin-bottom: 12px;
+}
+
+.apartment__prev {
+  width: 24%;
 }

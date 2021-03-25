@@ -8,13 +8,31 @@
     display: block;
     text-align: center;
   }
+
+  &--apart {
+    display: block;
+  }
 }
 
 .comments__wrapper {
   position: relative;
   max-width: 1280px;
   padding: 0 80px;
+  margin: 0 auto;  
+}
+
+.comments__wrapper--apart {
+  max-width: 949px;
+  padding: 0 15px;
   margin: 0 auto;
+  margin-bottom: 35px;
+
+  @media (min-width: 950px) {
+    position: relative;
+    max-width: 1280px;
+    padding: 0 80px;
+    margin: 0 auto;
+  }
 }
 
 .comments__toggle {
@@ -37,7 +55,7 @@
   flex-direction: column;
 }
 
-.comments__discription {
+.comments__description {
   margin-top: 30px;
 }
 

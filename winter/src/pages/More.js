@@ -5,7 +5,7 @@ import Filter from '../components/filter/Filter';
 import Footer from '../components/footer/Footer';
 
 
-export default function ApartmentsPage() {
+export default function More() {
 
   return (
     <div className="viev">

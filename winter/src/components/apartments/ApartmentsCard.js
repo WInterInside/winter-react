@@ -20,7 +20,7 @@ export default function ApartmentsCard(props) {
           <h3 className="apartments__heading">{props.apps}</h3>
           <p className="apartments__prise">от 1000 р.</p>
         </div>
-        <p className="apartments__discription">Отдельностоящий дом со всеми удобствами. Подходит для большой семьи.</p>
+        <p className="apartments__description">Отдельностоящий дом со всеми удобствами. Подходит для большой семьи.</p>
         <div className="apartments__wrapper apartments__wrapper--icons">
           <div className="apartments__icons">
             <svg className="apartments__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
