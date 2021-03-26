@@ -13,7 +13,7 @@ export default function AppartmentPage() {
 
       <main className="main">         
         <div className="container">
-          <h1 className="section__heading">Дом двухэтажный</h1>
+          <h1 className="section__heading section__heading--apart">Дом двухэтажный</h1>
         </div>
         <div className="apartment__gallery">
           <div className="apartment__mainprev">
@@ -40,11 +40,17 @@ export default function AppartmentPage() {
             Все исторические достопримечательности в пешей доступности.
           </p>
           <section className="apartment__comfort">
-            <h2 className="section__name">Удобства</h2>         
+            <h2 className="section__heading section__heading--apart">Удобства</h2>         
             <ul className="apartment__comfortlist">
               <Apartment__comfortitem comfort="WI-FI"/>
               <Apartment__comfortitem comfort="2 двухспальные кровати"/>
               <Apartment__comfortitem comfort="уборка номеров"/>
+              <Apartment__comfortitem comfort="WI-FI"/>
+              <Apartment__comfortitem comfort="2 двухспальные кровати"/>
+              <Apartment__comfortitem comfort="уборка номеров"/>
+              <Apartment__comfortitem comfort="WI-FI"/>
+              <Apartment__comfortitem comfort="2 двухспальные кровати"/>
+              <Apartment__comfortitem comfort="уборка номеров"/>              
             </ul>
           </section>
         </section>

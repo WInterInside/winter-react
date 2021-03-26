@@ -50,13 +50,22 @@
   }
 }
 
+
+.comments__list {
+  @include list-style;
+}
+
 .comments__item {
   display: flex;
   flex-direction: column;
 }
 
 .comments__description {
-  margin-top: 30px;
+  margin-top: 15px;
+
+  @media (min-width: 950px) {
+    margin-top: 30px;
+  }
 }
 
 .comments__author {
@@ -65,5 +74,12 @@
   font-style: normal;
   margin-top: 30px;
   margin-bottom: 70px;
+
+  &--apart {
+    margin-bottom: 0;
+  }
 }
 
+.comments__time {
+  font-style: italic;
+}

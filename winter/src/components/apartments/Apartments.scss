@@ -168,3 +168,14 @@ picture {
 .apartment__prev {
   width: 24%;
 }
+
+.apartment__comfortlist {
+  max-height: 130px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.apartment__comfortitem {
+  margin-bottom: 5px;
+}

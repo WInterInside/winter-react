@@ -5,7 +5,7 @@ import CommentsApartItem from './CommentsApartItem';
 export default function CommentsApartment() {
   return (
     <section className="comments comments--apart">
-      <h2 className="section__heading">Отзывы</h2>
+      <h2 className="section__heading section__heading--apart container">Отзывы:</h2>
       <div className="comments__wrapper comments__wrapper--apart">
         <button className="comments__toggle visually-hidden">
           <svg className="comments__icon" width="32" height="17" viewBox="0 0 32 17" fill="none" xmlns="http://www.w3.org/2000/svg">
