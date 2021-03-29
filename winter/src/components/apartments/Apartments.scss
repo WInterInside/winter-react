@@ -159,10 +159,19 @@ picture {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  @media (min-width: 950px) {
+  }
 }
 
 .apartment__mainimg {
   margin-bottom: 12px;
+
+  @media (min-width: 950px) {
+    height: 334px;
+    width: 758px;
+    margin-bottom: 0;
+  }
 }
 
 .apartment__prev {
@@ -170,20 +179,41 @@ picture {
 }
 
 .apartment__comfortlist {
+  @media (max-width: 350px) {
+    max-height: 530px;
+    flex-wrap: nowrap;
+  }
+
   max-height: 130px;
   padding: 0 15px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
+  @media (min-width: 950px) {
+    min-height: 200px;
+    width: 70%;
+  }
 }
 
 .apartment__comfortitem {
   font-size: 12px;
   line-height: 15px;
   margin-bottom: 5px;
+
+  @media (min-width: 950px) {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 
 .apartment__text {
   font-size: 12px;
   line-height: 15px;
+
+  @media (min-width: 950px) {
+    width: 70%;
+    font-size: 20px;
+    line-height: 25px;
+  }
 }

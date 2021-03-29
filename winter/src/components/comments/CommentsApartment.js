@@ -6,13 +6,13 @@ export default function CommentsApartment() {
   return (
     <section className="comments comments--apart">
       <h2 className="section__heading section__heading--apart container">Отзывы:</h2>
-      <div className="comments__wrapper comments__wrapper--apart">
+      <div className="comments__wrapper comments__wrapper--apart comments__wrapper--padding40">
         <button className="comments__toggle visually-hidden">
           <svg className="comments__icon" width="32" height="17" viewBox="0 0 32 17" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10.4386 0.25568C10.8897 -0.0852265 11.5999 -0.0852265 12.051 0.25568C12.4869 0.585068 12.4869 1.13328 12.051 1.4619L3.87493 7.64044H30.8549C31.4839 7.64044 32 8.0182 32 8.49347C32 8.96875 31.4839 9.35879 30.8549 9.35879H3.87493L12.051 15.5258C12.4869 15.8667 12.4869 16.4157 12.051 16.7443C11.5999 17.0852 10.8897 17.0852 10.4386 16.7443L0.326912 9.10311C-0.108971 8.77372 -0.108971 8.22551 0.326912 7.89689L10.4386 0.25568Z" fill="#2B486A"/>
           </svg>
         </button>
-        <ul className="comments__list">
+        <ul className="comments__list comment__list--apart">
           <CommentsApartItem />
           <CommentsApartItem />
         </ul>      

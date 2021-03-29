@@ -15,7 +15,7 @@ export default function AppartmentPage() {
         <div className="container">
           <h1 className="section__heading section__heading--apart">Дом двухэтажный</h1>
         </div>
-        <div className="apartment__gallery">
+        <div className="apartment__gallery container container--galery">
           <div className="apartment__mainprev">
             <img src="/img/mainapp.jpg" alt="app viev" className="apartment__mainimg"/>
           </div>
