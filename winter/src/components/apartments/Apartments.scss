@@ -171,11 +171,19 @@ picture {
 
 .apartment__comfortlist {
   max-height: 130px;
+  padding: 0 15px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 .apartment__comfortitem {
+  font-size: 12px;
+  line-height: 15px;
   margin-bottom: 5px;
+}
+
+.apartment__text {
+  font-size: 12px;
+  line-height: 15px;
 }

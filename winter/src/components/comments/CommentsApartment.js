@@ -14,6 +14,7 @@ export default function CommentsApartment() {
         </button>
         <ul className="comments__list">
           <CommentsApartItem />
+          <CommentsApartItem />
         </ul>      
         <button className="comments__toggle comments__toggle--right visually-hidden">
           <svg className="comments__icon" width="32" height="17" viewBox="0 0 32 17" fill="none" xmlns="http://www.w3.org/2000/svg">
