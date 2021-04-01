@@ -15,22 +15,14 @@ export default function AppartmentPage() {
         <div className="container">
           <h1 className="section__heading section__heading--apart">Дом двухэтажный</h1>
         </div>
-        <div className="apartment__gallery container container--galery">
-          <div className="apartment__mainprev">
-            <img src="/img/mainapp.jpg" alt="app viev" className="apartment__mainimg"/>
-          </div>
-          <div className="apartment__prev">
+        <div className="apartment__gallery">          
+          <img src="/img/mainapp.jpg" alt="app viev" className="apartment__mainimg"/>
+          {/* <div className="slider"> */}
             <img src="/img/appimg.jpg" alt="app viev" className="apartment__img"/>
-          </div>
-          <div className="apartment__prev">
             <img src="/img/appimg.jpg" alt="app viev" className="apartment__img"/>
-          </div>
-          <div className="apartment__prev">
             <img src="/img/appimg.jpg" alt="app viev" className="apartment__img"/>
-          </div>
-          <div className="apartment__prev">
             <img src="/img/appimg.jpg" alt="app viev" className="apartment__img"/>
-          </div>
+          {/* </div> */}
         </div>
         <section className="apartment__description container">
           <p className="apartment__text">
