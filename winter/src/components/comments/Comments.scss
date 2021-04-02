@@ -43,11 +43,15 @@
 
 .comments__wrapper--author {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-
+  flex-direction: column;
+  margin: 0;
   padding: 0;
+
+  @media (min-width: 950px) {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }
 
 .comments__wrapper--padding40 {
@@ -58,7 +62,6 @@
     padding: 0 40px;
     margin-top: 55px;
   }
-
 }
 
 .comments__toggle {
@@ -113,6 +116,7 @@
 .comments__author {
   font-size: 12px;
   line-height: 15px;
+  font-weight: bold;
 
   @media (min-width: 950px) {
     font-size: 20px;

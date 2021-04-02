@@ -143,13 +143,14 @@ picture {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 8px;
 
   @media (min-width: 950px) {
     grid-template-columns: 3fr 1fr 1fr;        
     max-width: 1440px;
     padding: 0 40px;
     margin: 0 auto;
+    grid-gap: 6px;
   }
 }
 
@@ -159,8 +160,6 @@ picture {
   @media (min-width: 950px) {
   }
 }
-
-
 
 .apartment__mainimg {
   width: 100%;
@@ -182,14 +181,12 @@ picture {
   }
 
   max-height: 130px;
-  padding: 0 15px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 
   @media (min-width: 950px) {
     min-height: 200px;
-    width: 70%;
   }
 }
 
@@ -209,8 +206,19 @@ picture {
   line-height: 15px;
 
   @media (min-width: 950px) {
-    width: 70%;
     font-size: 20px;
     line-height: 25px;
+  }
+}
+
+.apartment__gridwrapper {
+  display: block;
+
+  @media (min-width: 950px) {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;      
+    grid-template-rows: 1fr;  
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }

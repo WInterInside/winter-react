@@ -25,25 +25,29 @@ export default function AppartmentPage() {
           {/* </div> */}
         </div>
         <section className="apartment__description container">
-          <p className="apartment__text">
-            Наши апартаменты расположены в самом сердце Одессы. 
-            За углом соседнего дома открывается прекрасный вид на море и морской вокзал. 
-            Рядом кафе, рестораны, кофейни на любой вкус и бюджет. До супермаркета, который работает круглосуточно, 4 минуты ходьбы. 
-            Все исторические достопримечательности в пешей доступности.
-          </p>
-          <section className="apartment__comfort">
+          <div className="apartment__gridwrapper">
+            <p className="apartment__text">
+              Наши апартаменты расположены в самом сердце Одессы. 
+              За углом соседнего дома открывается прекрасный вид на море и морской вокзал. 
+              Рядом кафе, рестораны, кофейни на любой вкус и бюджет. До супермаркета, который работает круглосуточно, 4 минуты ходьбы. 
+              Все исторические достопримечательности в пешей доступности.
+            </p>
+          </div>
+          <section className="apartment__comfort">          
             <h2 className="section__heading section__heading--apart">Удобства</h2>         
-            <ul className="apartment__comfortlist">
-              <Apartment__comfortitem comfort="WI-FI"/>
-              <Apartment__comfortitem comfort="2 двухспальные кровати"/>
-              <Apartment__comfortitem comfort="уборка номеров"/>
-              <Apartment__comfortitem comfort="WI-FI"/>
-              <Apartment__comfortitem comfort="2 двухспальные кровати"/>
-              <Apartment__comfortitem comfort="уборка номеров"/>
-              <Apartment__comfortitem comfort="WI-FI"/>
-              <Apartment__comfortitem comfort="2 двухспальные кровати"/>
-              <Apartment__comfortitem comfort="уборка номеров"/>              
-            </ul>
+            <div className="apartment__gridwrapper">
+              <ul className="apartment__comfortlist">
+                <Apartment__comfortitem comfort="WI-FI"/>
+                <Apartment__comfortitem comfort="2 двухспальные кровати"/>
+                <Apartment__comfortitem comfort="уборка номеров"/>
+                <Apartment__comfortitem comfort="WI-FI"/>
+                <Apartment__comfortitem comfort="2 двухспальные кровати"/>
+                <Apartment__comfortitem comfort="уборка номеров"/>
+                <Apartment__comfortitem comfort="WI-FI"/>
+                <Apartment__comfortitem comfort="2 двухспальные кровати"/>
+                <Apartment__comfortitem comfort="уборка номеров"/>              
+              </ul>
+            </div>
           </section>
         </section>
         <CommentsApartment />    
