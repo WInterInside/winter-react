@@ -20,9 +20,9 @@
   text-transform: uppercase;
   border-bottom: none;
 
-  @media (min-width: 950px) {
-    border-bottom: 1px solid #2B486A;
-  }
+  // @media (min-width: 950px) {
+  //   border-bottom: 1px solid #2B486A;
+  // }
 
   &--card {
     margin-bottom: 0;
@@ -175,19 +175,16 @@ picture {
 }
 
 .apartment__comfortlist {
-
   @media (max-width: 350px) {
-    max-height: 530px;
-    flex-wrap: nowrap;
+    height: auto;
   }
 
-  max-height: 130px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 
   @media (min-width: 950px) {
-    min-height: 300px;
+    height: 400px;
   }
 }
 
@@ -200,14 +197,18 @@ picture {
 
   @media (min-width: 950px) {
     display: flex;
+    align-items: center;
     font-size: 20px;
     line-height: 25px;
     padding-left: 50px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    margin-bottom: 15px;
   }
 }
 
 .apartment__comfortdesc {
+  display: inline-block;
   padding: 0;
   margin: 0;
 }
@@ -220,9 +221,10 @@ picture {
     position: absolute;
     top: 0;
     left: 0px;
-    width: 30px;
-    height: 30px;
-    background-color: red;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
   }
 }
 

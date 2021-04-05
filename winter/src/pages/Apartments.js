@@ -37,20 +37,22 @@ export default function AppartmentPage() {
             <h2 className="section__heading section__heading--apart">Удобства</h2>         
             <div className="apartment__gridwrapper">
               <ul className="apartment__comfortlist">
-                <Apartment__comfortitem comfort="WI-FI"/>
-                <Apartment__comfortitem comfort="2 двухспальные кровати"/>
+                <Apartment__comfortitem comfort="WI-FI" iconColor="green"/>
+                <Apartment__comfortitem comfort="2 двухспальные кровати" iconColor="red"/>
+                <Apartment__comfortitem comfort="телевизор"/>
+                <Apartment__comfortitem comfort="1 ванная комната"/>
+                <Apartment__comfortitem comfort="фен"/>
+                <Apartment__comfortitem comfort="полотенца"/>
                 <Apartment__comfortitem comfort="уборка номеров"/>
-                <Apartment__comfortitem comfort="WI-FI"/>
-                <Apartment__comfortitem comfort="2 двухспальные кровати"/>
-                <Apartment__comfortitem comfort="уборка номеров"/>
-                <Apartment__comfortitem comfort="WI-FI"/>
-                <Apartment__comfortitem comfort="2 двухспальные кровати"/>
-                <Apartment__comfortitem comfort="уборка номеров"/>              
+                <Apartment__comfortitem comfort="сейф"/>
+                <Apartment__comfortitem comfort="стиральная машина"/>        
               </ul>
             </div>
           </section>
         </section>
-        <CommentsApartment />    
+        <div className="apartment__gridwrapper">
+          <CommentsApartment />    
+        </div>
       </main>
       <Footer />
     </div>

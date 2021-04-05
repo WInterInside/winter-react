@@ -79,7 +79,6 @@
   }
 }
 
-
 .comments__list {
   @include list-style;
 }
@@ -90,10 +89,10 @@
   flex-direction: column;
   margin-bottom: 30px;
 
-  @media (min-width: 950px) {
-    margin-right: auto;
-    width: 55%;
-  }
+  // @media (min-width: 950px) {
+  //   margin-right: auto;
+  //   width: 55%;
+  // }
 }
 
 .comments__description {
