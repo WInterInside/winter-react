@@ -9,7 +9,7 @@ export default function More() {
 
   return (
     <div className="viev">
-      <Smallhero logo="dom38a"/>
+      <Smallhero logo="Дом 38а"/>
 
       <main className="main">    
         <Filter />

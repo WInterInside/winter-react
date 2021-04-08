@@ -15,3 +15,8 @@
   background-repeat: $background-repeat;
 }
 
+@mixin icon-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

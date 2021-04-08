@@ -9,7 +9,7 @@ export default function AppartmentPage() {
 
   return (
     <div className="viev">
-      <Smallhero logo="dom38a"/>
+      <Smallhero logo="Дом 38а"/>
 
       <main className="main">         
         <div className="container">
@@ -37,15 +37,15 @@ export default function AppartmentPage() {
             <h2 className="section__heading section__heading--apart">Удобства</h2>         
             <div className="apartment__gridwrapper">
               <ul className="apartment__comfortlist">
-                <Apartment__comfortitem comfort="WI-FI" iconColor="green"/>
-                <Apartment__comfortitem comfort="2 двухспальные кровати" iconColor="red"/>
-                <Apartment__comfortitem comfort="телевизор"/>
-                <Apartment__comfortitem comfort="1 ванная комната"/>
-                <Apartment__comfortitem comfort="фен"/>
-                <Apartment__comfortitem comfort="полотенца"/>
-                <Apartment__comfortitem comfort="уборка номеров"/>
-                <Apartment__comfortitem comfort="сейф"/>
-                <Apartment__comfortitem comfort="стиральная машина"/>        
+                <Apartment__comfortitem comfort="WI-FI" iconName="wi-fi"/>
+                <Apartment__comfortitem comfort="2 двухспальные кровати" iconName="bad"/>
+                <Apartment__comfortitem comfort="телевизор" iconName="tv"/>
+                <Apartment__comfortitem comfort="1 ванная комната" iconName="bath"/>
+                <Apartment__comfortitem comfort="фен" iconName="dryer"/>
+                <Apartment__comfortitem comfort="полотенца" iconName="towl"/>
+                <Apartment__comfortitem comfort="уборка номеров" iconName="cleaning"/>
+                <Apartment__comfortitem comfort="сейф" iconName="safe"/>
+                <Apartment__comfortitem comfort="стиральная машина" iconName="laundry"/>        
               </ul>
             </div>
           </section>

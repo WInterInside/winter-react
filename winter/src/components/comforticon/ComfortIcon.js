@@ -3,8 +3,8 @@ import "./ComfortIcon.scss";
 
 export default function ComfortIcon(props) {
   let className = 'icon ';
-    if (props.iconColor) {
-      className += "icon--"+props.iconColor;
+    if (props.iconName) {
+      className += "icon--"+props.iconName;
     }
   return <div className={className}></div>
 }

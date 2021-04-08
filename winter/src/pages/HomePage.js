@@ -10,7 +10,7 @@ export default function HomePage() {
 
   return (
     <div className="viev">
-      <Hero logo="Dom38a"/>
+      <Hero logo="Дом 38а"/>
       <main className="main">    
         <Apartments />
         <Advantages />

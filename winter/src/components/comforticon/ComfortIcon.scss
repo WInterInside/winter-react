@@ -2,22 +2,73 @@
 @import "src/styles/vars";
 
 .icon {
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
-  border: 1px solid black;
-  margin-right: 30px;  
 
-  &--red {
-    background-color: red;
-  }
+  @media (min-width: 950px) {
+    background-color: transparent;
+    margin-right: 30px;  
 
-  &--green {
-    background-color: green;
+  
+    &--wi-fi {
+      width: 41px;
+      height: 39px;
+      background-image: url("/icons/wi-fi.svg");
+      @include icon-bg;
+    }
+  
+    &--bad {
+      width: 42px;
+      height: 37px;
+      background-image: url("/icons/bad.svg");
+      @include icon-bg;
+    }
+  
+    &--tv {
+      width: 41px;
+      height: 41px;
+      background-image: url("/icons/tv.svg");
+      @include icon-bg;
+    }
+  
+    &--bath {
+      width: 42px;
+      height: 44px;
+      background-image: url("/icons/bath.svg");
+      @include icon-bg;
+    }
+  
+    &--dryer {
+      width: 42px;
+      height: 62px;
+      background-image: url("/icons/dryer.svg");
+      @include icon-bg;
+    }
+  
+    &--towl {
+      width: 42px;
+      height: 39px;
+      background-image: url("/icons/towl.svg");
+      @include icon-bg;
+    }
+  
+    &--cleaning {
+      width: 42px;
+      height: 48px;
+      background-image: url("/icons/cleaning.svg");
+      @include icon-bg;
+    }
+  
+    &--safe {
+      width: 46px;
+      height: 40px;
+      background-image: url("/icons/safe.svg");
+      @include icon-bg;
+    }
+  
+    &--laundry {
+      width: 42px;
+      height: 42px;
+      background-image: url("/icons/laundry.svg");
+      @include icon-bg;
+    }
   }
 }
-
-
-
-// @media (min-width: 950px) {
-// }
