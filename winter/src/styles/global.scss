@@ -29,11 +29,6 @@ body {
   flex-direction: column;
 }
 
-.main {
-  flex: 1;
-}
-// sticky footer here
-
 a {
   text-decoration: none;
 }
@@ -86,5 +81,26 @@ address {
       line-height: 30px;
     }
   }
+
+  &--more {
+    display: none;
+
+    @media (min-width: 950px) {
+      font-family: "Arsenal-Regular";
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: normal;
+    }
+  }
 }
 
+.main {
+  flex: 1;
+  
+  &--home {
+    padding: 0;
+    @media (min-width: 950px) {
+      padding-top: 88px;
+    }
+  }
+}

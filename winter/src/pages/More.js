@@ -5,7 +5,7 @@ import Filter from '../components/filter/Filter';
 import Footer from '../components/footer/Footer';
 
 
-export default function More() {
+export default function More(props) {
 
   return (
     <div className="viev">
@@ -13,7 +13,7 @@ export default function More() {
 
       <main className="main">    
         <Filter />
-        <Apartments />
+        <Apartments more/> 
       </main>
 
       <Footer />
