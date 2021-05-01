@@ -1,0 +1,13 @@
+@import "src/styles/mixins";
+@import "src/styles/vars";
+
+.slider {
+  width: 100%;
+  background-color: red;
+}
+.slide {
+  width: 25%;
+  height: 300px;
+  background-color: royalblue;
+  margin-left: 10px;
+}
