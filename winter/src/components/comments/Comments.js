@@ -41,9 +41,9 @@ export default function Slider({data}) {
         container: '.comments__slides',
         items: 1,
         autoWidth: true,
-        gutter: 5,
+        gutter: 0,
         controls: true,
-        nav: false,
+        nav: true,
         autoplay: false,
         loop: false,
         mouseDrag: true,
@@ -61,7 +61,7 @@ export default function Slider({data}) {
 
       overlaySlider = tns({
         container: '#overlay-slider',
-        items: 1,
+        items: 3,
         //autoWidth: true,
         //gutter: 10,
         controls: false,
@@ -101,9 +101,14 @@ export default function Slider({data}) {
         </button>
       </div>
       <div className="comments__slides">
-        <CommentsItem />
-        <CommentsItem />
-        <CommentsItem />
+        <CommentsItem summ="грязно и мерзко"/>
+        <CommentsItem summ="вкусно и сочно"/>
+        <CommentsItem summ="точно так"/>
+        <CommentsItem summ="точно срака"/>          
+        <CommentsItem summ="грязно и мерзко"/>
+        <CommentsItem summ="вкусно и сочно"/>
+        <CommentsItem summ="точно так"/>
+        <CommentsItem summ="точно срака"/>      
       </div>
       </div>
     </section>

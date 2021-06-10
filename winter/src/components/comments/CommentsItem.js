@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Comments.scss";
 
-export default function CommentsItem() {
+export default function CommentsItem(props) {
   return (
     <li className="comments__item">
       <div className="comments__content">
-        <q className="comments__summary">Просторно и чисто</q>
+        <q className="comments__summary">{props.summ}</q>
         <q className="comments__description"> 
           Квартира оказалась просторной и чистой со всем необходимым поблизости. 
           Рядом находится Mall South Valley, где можно отлично провести время. 

@@ -18,7 +18,7 @@ export default function ApartmentsCard(props) {
         </picture>
         <div className="apartments__wrapper apartments__wrapper--price">
           <h3 className="apartments__heading">{props.apps}</h3>
-          <p className="apartments__prise">от 1000 р.</p>
+          <p className="apartments__price">от 1000 р.</p>
         </div>
         <p className="apartments__description">Отдельностоящий дом со всеми удобствами. Подходит для большой семьи.</p>
         <div className="apartments__wrapper apartments__wrapper--icons">
